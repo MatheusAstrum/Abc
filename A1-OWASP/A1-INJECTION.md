@@ -83,7 +83,7 @@ SELECT * FROM accounts WHERE username='' OR 1=1# AND password=''
 
 ## Analisando código fonte
 
-[Código vulnerável](print4.png)
+![Código vulnerável](print4.png)
 
 Podemos ver que a entrada de dados não é tratada da forma correta, permitindo que o atacante realize consultas que ignorem o filtro de senha e usuário.
 
